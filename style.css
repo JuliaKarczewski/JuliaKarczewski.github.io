@@ -1,0 +1,48 @@
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+#tribute-link {
+  color: #FDFD96;
+  font-weight: bold;
+}
+
+#image {
+  border: 5px solid #FDFD96;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 500px;
+  display: block;
+}
+
+#img-caption {
+  font-size: 19px;
+  font-family: Papyrus;
+  text-shadow: 2px 5px 5px #FDFD96;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+#tribute-info {
+  font-size: 25px;
+  font-family: Copperplate;
+
+}
+#title {
+  font-size: 55px;
+  text-shadow: 2px 4px 5px #FDFD96;
+}
